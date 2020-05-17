@@ -1,0 +1,32 @@
+@import "../../assets/styles/vars";
+
+body {
+    background-color: $primary_Gainsboro;
+}
+.navigation {
+    margin: 0;
+    padding: 15px;
+    height: 150px;
+    div.label {
+        font-family: 'Josefin Sans', sans-serif;
+        h1 {
+        font-weight: 700;
+        font-size: 3.5rem;
+        color: $primary_DarkOrange;
+        }
+    }
+    nav.navbar {
+        font-size: 20px;
+        div.collapse {
+            div.navbar-nav {
+                a.nav-item {
+                    color: $primary_Black;
+                }
+                a:hover {
+                    color: $primary_DarkOrange;
+                    transition-duration: 0.3s;
+                }
+            }
+        }
+    }
+}
