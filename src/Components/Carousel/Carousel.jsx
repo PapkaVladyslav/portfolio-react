@@ -6,9 +6,6 @@ import nebo_2 from "../../assets/image/neboskreby-2.jpg";
 import nebo_3 from "../../assets/image/neboskreby-3.jpg";
 
 export class Carousel extends React.Component {
-    constructor(props) {
-      super(props);
-    }
     render() {
         return (
             <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
