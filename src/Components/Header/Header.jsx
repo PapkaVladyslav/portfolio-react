@@ -3,10 +3,6 @@ import {render} from "react-dom";
 import "./Header.scss"
 
  export class Header extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
         <header>
@@ -21,7 +17,7 @@ import "./Header.scss"
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                   <div className="navbar-nav">
-                    <a className="nav-item nav-link" href="#">Home</a>
+                    <a className="nav-item nav-link active" id="home">Home</a>
                     <a className="nav-item nav-link" href="#">About Me</a>
                     <a className="nav-item nav-link" href="#">Portfolio</a>
                     <a className="nav-item nav-link" href="#">Contact</a>

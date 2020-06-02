@@ -1,9 +1,27 @@
 @import "../../assets/styles/vars";
 
+body {
+    &:before {
+        content: ' ';
+        background-image: url(../../assets/image/body/bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        display: block;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        opacity: 0.2;
+        font-family: "Raleway", Arial, Helvetica, sans-serif;
+    }
+}
+
 .contact {
     margin: 0;
     padding: 25px;
-    background-color: $primary_Gainsboro;
     color: $primary_Black;
     align-items: center;
     h5 {
